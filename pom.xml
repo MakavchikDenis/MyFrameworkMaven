@@ -9,12 +9,19 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+
     <developers>
         <developer>
             <name>makavchik</name>
             <email>makavchik1.19@gmail.com</email>
         </developer>
     </developers>
+
+    <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <maven.compiler.source>13</maven.compiler.source>
+            <maven.compiler.target>13</maven.compiler.target>
+    </properties>
 
     <distributionManagement>
         <repository>
@@ -35,9 +42,6 @@
             </repositories>
         </profile>
     </profiles>
-    <properties>
-        <maven.compiler.source>13</maven.compiler.source>
-        <maven.compiler.target>13</maven.compiler.target>
-    </properties>
+
 
 </project>

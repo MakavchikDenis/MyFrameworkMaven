@@ -16,6 +16,25 @@
         </developer>
     </developers>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://github.com/MakavchikDenis/MyFrameworkMaven</url>
+        </repository>
+    </distributionManagement>
+
+
+    <profiles>
+        <profile>
+            <id>github</id>
+            <repositories>
+                <repository>
+                    <id>github</id>
+                    <url>https://github.com/MakavchikDenis/MyFrameworkMaven</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
